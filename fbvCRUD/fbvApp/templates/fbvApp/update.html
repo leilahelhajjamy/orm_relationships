@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>Update Student</title>
+</head>
+
+
+<body>
+    <h2>Update student</h2>
+    <form  method="post">
+        {{form.as_p}}
+       {%csrf_token%}
+<!--        First Name : <input type="text" name="firstName" value="{{student.firstName}}">-->
+<!--        Last Name : <input type="text"  name="lastName" value="{{student.lastName}}">-->
+<!--        test Score: <input type="number" name="testScore" value="{{student.testScore}}">-->
+
+
+        <input type="submit" value="save">
+
+
+    </form>
+</body>
+</html>
